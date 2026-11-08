@@ -1,6 +1,6 @@
 # Vercel AI Gateway: Fireworks returns 400 for a recursive `$ref` wrapped in `allOf`
 
-Issue: _link added after filing_
+Reported to Vercel AI Gateway on 2026-11-08 (private support channel).
 
 Through Vercel AI Gateway, `deepseek/deepseek-v4.1-flash-1017-ultrafast` (served only by Fireworks) rejects a tool whose `parameters` contain a **recursive** `$ref` wrapped in a one-arm `allOf`:
 
